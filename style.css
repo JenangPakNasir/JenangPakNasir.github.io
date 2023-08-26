@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(23, 23, 23);
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(217, 214, 209);    
+}
+
+.page-1 {
+    width: 80vw;
+    margin: 0px 10vw;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh; 
+    justify-content: space-around;
+    background-color: #435B66;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu ul li a{
+    margin: 2vh;
+    color: aliceblue;
+    
+}
+
+.menu ul li {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 2vw;
+}
+
+.menu ul li:hover{
+    background-color: #748891;
+}
+
+.items-1{
+    justify-content: center;
+    display: flex;
+}
+
+.judul {
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+.page-isi {
+    width: 100vw;
+    margin-bottom: 0px;
+}
+
+.page-1{
+    margin-top: 11vh;
+}
+
+.p-1 {
+    background-color:  rgb(225, 225, 225);
+}
+
+.page-1 .judul h1 {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+    justify-content: center;
+    display: flex;
+}
+
+.page-1 .judul h6{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color:rgb(124, 124, 124);
+}
+
+.page-1 .isi {
+    display: flex;
+    justify-content: center;
+}
+
+.page-1 .isi img {
+    height: 45vh;
+    width: 45vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+.page-1 .p-1 h2{
+    margin: 1vh 2vw 0px 2vw;
+    font-weight:400;
+}
+
+.page-1 .p-1 p{
+    text-align: justify;
+    margin: 0vh 2vw;
+}
+
+
+.page-2 {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .page-1 .isi img {
+        height: 35vh;
+        width: 70vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}

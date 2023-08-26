@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PKDK</div>
+        <div class="menu">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="page-isi">
+    <div class="page-1">
+        <div class="judul">
+            <h1>Home Industri Jenang Wajik Pak Nasir</h1>
+            <h6 class="kl-3">PKDK KELOMPOK 3 <br>23 Agustus 2023</h6>
+        </div>
+
+        
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="/images/jenang.jpg" style="width:100%">
+                <img class="mySlides" src="/img/mount-batur_1385-1771.avif" style="width:100%">
+                <img class="mySlides" src="/img/amazing-autumn-scenery-santa-maddalena-village-with-church-colorful-trees-meadows-rising-sun-rays-dolomite-alps-italy_661209-239.avif" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+            
+     
+
+        <div class="p-1">
+            <h2>Mengenal Home Industri Jenang Wajik Pak Nasir </h2><br>
+            <p>Dari hasil wawancara dan observasi kelompok kami mengenai tugas PKDK (Produk Kreatif Dan kewirausahaan) di Home Industry Jenang dan wajik Pak Nasir, Home Industry ini sudah berdiri sejak tahun 1998 dan masih generasi pertama.<br><br>Dalam proses pembuatan jenang dan wajik Pak Nasir mempunyai empat karyawan yang setiap hari memproduksi jenang dan wajik. <br><br>
+                Dalam proses pembuatan jenang dan wajik setiap pekerja memerlukan kesabaran, ketelitian dan harus hati hati, karena proses pembuatannya memakan waktu sampai 8 jam dan menguras banyak tenaga jadi para pekerja selalu bergantian pada saat mengaduk adonan.
+
+        </div>
+    </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
